@@ -12,10 +12,11 @@ public class Main {
         strs.add("first string");
         strs.add("second string");
         strs.add("third string");
-        return new Tuple3<>(val, boolVal, strs);
+        return new Tuple3(val, boolVal, strs);
     }
 
     public static void main(String[] args) {
         System.out.println(testTuple());
+        System.out.println(testTuple()._3());
     }
 }

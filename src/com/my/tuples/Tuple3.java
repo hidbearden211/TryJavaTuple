@@ -11,15 +11,15 @@ public class Tuple3<T1, T2, T3> {
         this.value3 = value3;
     }
 
-    public T1 getValue1() {
+    public T1 _1() {
         return value1;
     }
 
-    public T2 getValue2() {
+    public T2 _2() {
         return value2;
     }
 
-    public T3 getValue3() {
+    public T3 _3() {
         return value3;
     }
 
